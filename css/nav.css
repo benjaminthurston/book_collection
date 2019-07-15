@@ -34,6 +34,7 @@ a {
 
 .main-nav {
 	margin-top: 5px;
+	background: #ec7f37
 
 }
 .logo a,
@@ -84,14 +85,13 @@ a {
 	.header {
 		flex-direction: column;
 		align-items: center;
-    	.header{
 		width: 80%;
 		margin: 0 auto;
 		max-width: 1150px;
 	}
-	}
-
 }
+
+
 
 @media (min-width: 1025px) {
 	.header {

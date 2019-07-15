@@ -11,10 +11,23 @@ body {
 }
 
 h1 {
-  color: #FF0000;
+  color: #a2a2a2;
 }
 /* FLEXBOX */
+/*flex for image on home */
+
+ul.bk-list {
+    display: flex;
+}
+
+.bk-list li {
+    margin-right: 20px;
+    border: 1px dashed blue;
+    padding: 20px;
+}
+
 /* flex-direction: row-reverse; */
+
 
 
 .container-flex {
