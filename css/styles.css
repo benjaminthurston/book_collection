@@ -8,8 +8,27 @@ body {
   padding: 0;
   font-size: 16px;
   font-family: 'Titillium Web', sans-serif;
+  display: flex;
+  flex-direction: column;
 }
 
+.art-header{
+flex-wrap: wrap;
+
+}
+
+html, body{
+height: 100%;
+}
+.content{
+  flex: 2 0 auto;
+}
+
+.footer{
+flex-shrink: 0;
+background-color: orange;
+
+}
 h1 {
   color: #a2a2a2;
 }
@@ -18,12 +37,15 @@ h1 {
 
 ul.bk-list {
     display: flex;
+    flex:1;
+    flex-wrap: wrap;
 }
 
 .bk-list li {
     margin-right: 20px;
     border: 1px dashed blue;
     padding: 20px;
+    flex-wrap: wrap;
 }
 
 /* flex-direction: row-reverse; */
