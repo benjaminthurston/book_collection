@@ -14,9 +14,10 @@
       
         <meta name="viewport" content="width=device-width, initial-scale=1">
       
+        <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/styles.css?v=2.0">
         <link rel="stylesheet" href="css/nav.css">
-        <link rel="stylesheet" href="css/normalize.css">
+
       
 </head>
 
@@ -27,7 +28,7 @@
         <h1 class="logo"><a href="#">Book Collection</a></h1>
           <ul class="main-nav">
               <li><a href="#">Home</a></li>
-              <li><a href="book_list.html">Books List</a></li>
+              <li><a href="#">Books List</a></li>
               <li><a href="#">Portfolio</a></li>
               <li><a href="#">Contact</a></li>
           </ul>
@@ -38,21 +39,38 @@
   <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate</p>
   </div>
 
-  <div class="booklist">
+  <h2>What Books do you have?</h2>
 
-    <ul class="bk-list">
-
-      <li><a href="img/Merchant_of_death.jpg"><img src="img/Merchant_of_death.jpg" alt="Merchant of death" height="150" width="150"></li>
-      <li><a href="">IMAGE HERE</a></li>
-      <li><a href="">IMAGE HERE</a></li>
-      <li><a href="">IMAGE HERE</a></li>
-      <li><a href="">IMAGE HERE</a></li>
-      <li><a href="">IMAGE HERE</a></li>
-
-    </ul>
-
+  <div id="myBtnContainer">
+    <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+    <button class="btn" onclick="filterSelection('james')">James Patterson</button>
+    <button class="btn" onclick="filterSelection('rol')">J. K. Rowlings</button>
+    <button class="btn" onclick="filterSelection('year')">Year</button>
+    <button class="btn" onclick="filterSelection('synopsis')">Synopsis</button>
   </div>
-</div>
+  
+  <div class="container">
+  <div class="num1">
+    <div class="author">
+      <div class="filterDiv james">
+      <cite>Title: Along Came a spider</cite> <!--</br>-->
+      <p>author: James Patterson</p>
+      <p>Along Came a Spider is the first novel in James Pattersons series about forensic psychologist Alex Cross. First published in 1993, its success has led to eighteen sequels as of 2012. It was adapted into a film of the same name in 2001, starring Morgan Freeman as Cross.</p>
+    </div>
+    </div>
+    <div class="filterDiv rol">
+      
+      <cite>Harry Potter and the Sorcerers Stone</cite>
+      <p>author: J. K. Rowling</p>
+      <p>Harry Potter and the Philosophers Stone is the third-best-selling single-volume book of all time (120 million approx. sales).</p>
+
+
+    </div>
+  </div>
+  </div>
+  
+   
+
 <!--sticky footer-->
 <footer class="footer">
 <h6>hello</h6>
@@ -60,7 +78,7 @@
 
   <!-- JS Here which will be on the second page -->
 
-    
+  <script src="js/buttons.js"></script>
 
   <!-- JS Here-->
 </body>
