@@ -5,10 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
         <meta charset="utf-8">
       
-        <title>book_collection</title>
+        <title>Book Collection</title>
         <meta name="description" content="book_collection">
         <meta name="author" content="Benjamin Thurston">
       
@@ -16,9 +15,7 @@
       
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/styles.css?v=2.0">
-        <link rel="stylesheet" href="css/nav.css">
-
-      
+        <!-- <link rel="stylesheet" href="css/nav.css"> -->
 </head>
 
 <body>
@@ -36,7 +33,7 @@
 
   <div class="art-header">
   <h1>Your Library in one place</h1>
-  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate</p>
+  <p>Welcome to my Book Collection site. I am happy you stopped by. Here is the skinny: This is viewable on a large screen and on tablets. Go ahead test it out. If you click on one of the gray buttons below What Books do you have? You can filter through the various books by Author. I plan to make a different version of this site this is more a starting point as my wife Katlin has waited for this site for five years. Let the fun begin!</p>
   </div>
 
   <h2>What Books do you have?</h2>
@@ -45,8 +42,8 @@
     <button class="btn active" onclick="filterSelection('all')"> Show all</button>
     <button class="btn" onclick="filterSelection('james')">James Patterson</button>
     <button class="btn" onclick="filterSelection('rol')">J. K. Rowlings</button>
-    <button class="btn" onclick="filterSelection('year')">Year</button>
-    <button class="btn" onclick="filterSelection('synopsis')">Synopsis</button>
+    <button class="btn" onclick="filterSelection('isaac')">Isaac Asimov</button>
+    <button class="btn" onclick="filterSelection('dekker')">Ted Dekker</button>
   </div>
   
   <div class="container">
@@ -58,23 +55,58 @@
       <p>Along Came a Spider is the first novel in James Pattersons series about forensic psychologist Alex Cross. First published in 1993, its success has led to eighteen sequels as of 2012. It was adapted into a film of the same name in 2001, starring Morgan Freeman as Cross.</p>
     </div>
     </div>
+    <div class="author">
     <div class="filterDiv rol">
       
       <cite>Harry Potter and the Sorcerers Stone</cite>
       <p>author: J. K. Rowling</p>
       <p>Harry Potter and the Philosophers Stone is the third-best-selling single-volume book of all time (120 million approx. sales).</p>
 
-
     </div>
+  </div>
+  </div>
+  <div class="num1">
+    <div class="author">
+      <div class="filterDiv rol">
+      <cite>Quidditch Through the Ages</cite> <!--</br>-->
+      <p>author: J. K. Rowling</p>
+      <p>The most checked-out book in the Hogwarts Library, and a volume no Quidditch player or Harry Potter fan should be without! If you have ever asked yourself where the Golden Snitch came from, how the Bludgers came into existence, or why the Wigtown Wanderers have pictures of meat cleavers on their robes, you need QUIDDITCH THROUGH THE AGES. This invaluable volume is consulted by young Quidditch fans on an almost daily basis. Proceeds from the sale of this book will go to Comic Relief, who will use your money to continue improving and changing lives -- work that is even more important and astonishing than the three-and-a-half-second capture of the Golden Snitch by Roderick Plumpton in 1921.</p>
+    </div>
+    </div>
+    <div class="author">
+    <div class="filterDiv james">
+      <cite>Title: Unsolved</cite> <!--</br>-->
+      <p>author: James Patterson</p>
+      <p>FBI agent Emmy Dockery is absolutely relentless. She's young and driven, and her unique skill at seeing connections others miss has brought her an impressive string of arrests. But a shocking new case-unfolding across the country-has left her utterly baffled. The victims all appear to have died by accident, and have seemingly nothing in common. But this many deaths can't be coincidence. And the killer is somehow one step ahead of every move Dockery makes. How?</p>
+    </div>
+  </div>
+  </div>
+
+
+  <div class="num1">
+    <div class="author">
+      <div class="filterDiv isaac">
+      <cite>Second Foundation</cite> <!--</br>-->
+      <p>author: Isaac Asimov</p>
+      <p>An unsurpassed blend of nonstop action, daring ideas, and extensive world-building, Isaac Asimov’s Foundation novels chronicle the struggle of a courageous group of men and women dedicated to preserving humanity’s light in a galaxy plunged into a nightmare of ignorance and violence thirty thousand years long. After years of struggle, the Foundation lies in ruins—destroyed by the mutant mind power of the Mule. But it is rumored that there is a Second Foundation hidden somewhere at the end of the Galaxy, established to preserve the knowledge of mankind through the long centuries of barbarism. The Mule failed to find it the first time—but now he is certain he knows where it lies. The fate of the Foundation rests on young Arcadia Darell, only fourteen years old and burdened with a terrible secret. As its scientists gird for a final showdown with the Mule, the survivors of the First Foundation begin their desperate search. They too want the Second Foundation destroyed . . . before it destroys them.</p>
+    </div>
+    </div>
+    <div class="author">
+    <div class="filterDiv dekker">
+      <cite>Title: Thr3e</cite> <!--</br>-->
+      <p>author: Ted Dekker</p>
+      <p>By all accounts seminary student Kevin Parsins is leading a good, if not virtuous, life. But like all people, Kevin has his secrets. And someone wants them revealed. While driving home from a day at graduate school, Kevin receives a call from a mysterious stranger who calls himself Slater. Slater demands Kevin confess his sin in the next three minutes or the vehicle he is manning will be blown to pieces. Thus starts a harrowing chain of events. After narrowly escaping his exploding car, Kevin continues to receive phone calls from Slater, each with another riddle, another consequence, and another three minutes to confess his sin. The problem is Kevin is unsure of what that sin might be. And Slater's cycle won't stop until he figures it out. </p>
+    </div>
+  </div>
   </div>
   </div>
   
    
 
 <!--sticky footer-->
-<footer class="footer">
+<!-- <footer class="footer" id="sticky">
 <h6>hello</h6>
-  </footer>
+  </footer> -->
 
   <!-- JS Here which will be on the second page -->
 
